@@ -1,15 +1,14 @@
 # lodashExt
 
-[![NPM](https://nodei.co/npm/logstash-relay.png?downloads=true)](https://nodei.co/npm/logstash-relay/)
+[![NPM](https://nodei.co/npm/@mediaxpost/lodashext.png?downloads=true)](https://nodei.co/npm/@mediaxpost/lodashext/)
 
-[![Actual version published on npm](http://img.shields.io/npm/v/logstash-relay.svg)](https://www.npmjs.org/package/logstash-relay)
-[![Travis build status](https://travis-ci.org/MediaXPost/logstash-relay.svg)](https://www.npmjs.org/package/logstash-relay)
-[![Total npm module downloads](http://img.shields.io/npm/dt/logstash-relay.svg)](https://www.npmjs.org/package/logstash-relay)
-[![Package Quality](http://npm.packagequality.com/shield/logstash-relay.svg)](http://packagequality.com/#?package=logstash-relay)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f0adb055adc04f98941b7832bdb286ed)](https://www.codacy.com/app/chronosis/logstash-relay?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MediaXPost/logstash-relay&amp;utm_campaign=Badge_Grade)
-[![Codacy Badge](https://api.codacy.com/project/badge/Coverage/d264ea63a69a4e3899ce06d6e81f18fb)](https://www.codacy.com/app/chronosis/logstash-relay?utm_source=github.com&utm_medium=referral&utm_content=chronosis/logstash-relay&utm_campaign=Badge_Coverage)
-[![Dependencies badge](https://david-dm.org/MediaXPost/logstash-relay/status.svg)](https://david-dm.org/MediaXPost/logstash-relay?view=list)
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMediaXPost%2Flogstash-relay.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2FMediaXPost%2Flogstash-relay?ref=badge_shield)
+[![Actual version published on npm](http://img.shields.io/npm/v/@mediaxpost/lodashext.svg)](https://www.npmjs.org/package/@mediaxpost/lodashext)
+[![Travis build status](https://travis-ci.org/MediaXPost/lodashExt.svg)](https://www.npmjs.org/package/@mediaxpost/lodashext)
+[![Total npm module downloads](http://img.shields.io/npm/dt/@mediaxpost/lodashext.svg)](https://www.npmjs.org/package/@mediaxpost/lodashext)
+[![Package Quality](http://npm.packagequality.com/badge/@mediaxpost/lodashext.png)](http://packagequality.com/#?package=@mediaxpost/lodashext)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/198aa1923d284affae5516a3563ce2d5)](https://www.codacy.com/app/chronosis/lodashExt?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MediaXPost/lodashExt&amp;utm_campaign=Badge_Grade)
+[![Dependencies badge](https://david-dm.org/MediaXPost/lodashext/status.svg)](https://david-dm.org/MediaXPost/lodashext?view=list)
+
 
 Simple and useful utility extensions for Lodash.
 
@@ -25,7 +24,7 @@ npm install @mediaxpost/lodashExt
 lodashExt replaces and extends lodash, so it only the lodashExt module needs to be included in your code:
 
 ```js
-const _ = require('@mediaxpost/lodashExt');
+const _ = require('@mediaxpost/lodashext');
 
 const data = { a: 'a', b: 'b' };
 // Use lodash as you normally would
@@ -35,7 +34,7 @@ console.log(_.pick(data, ['a']);
 # [API Reference](#api)
 <a name="api"></a>
 
-## _.isUnset(value)
+## _.isUnset(value) ⇒ boolean
 Tests if the value provided is `null` or `undefined`
 
 ```js
@@ -51,7 +50,7 @@ true
 false
 ```
 
-## _.hasValue(value)
+## _.hasValue(value) ⇒ boolean
 Tests if the value provided is not `null` or `undefined`
 
 ```js
@@ -67,7 +66,7 @@ false
 true
 ```
 
-## _.implies(a, b)
+## _.implies(a, b) ⇒ boolean
 Test the logic imply operation a => b, providing the following truth table:
 
 | A | B | Result |
@@ -81,5 +80,3 @@ Test the logic imply operation a => b, providing the following truth table:
 <a name="license"></a>
 
 Copyright (c) 2018 Jay Reardon -- Licensed under the MIT license.
-
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2FMediaXPost%2Flogstash-relay.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2FMediaXPost%2Flogstash-relay?ref=badge_large)
