@@ -4,7 +4,12 @@
   "description": "Simple and useful utility extensions for Lodash",
   "main": "index.js",
   "scripts": {
-    "test": "nyc mocha"
+    "test": "nyc mocha",
+    "build": "gulp",
+    "fix": "gulp fix",
+    "lint": "gulp lint",
+    "coverage": "nyc --reporter=lcov mocha && cat ./coverage/lcov.info | codacy-coverage",
+    "pretty": "gulp pretty"    
   },
   "repository": {
     "type": "git",
