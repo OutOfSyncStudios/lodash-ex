@@ -17,11 +17,11 @@ describe('lodashExt', () => {
     expect(__.isUnset(undefined)).to.equal(true);
   });
 
-  it('.isUnset([]) === true', () => {
+  it('.isUnset([]) === false', () => {
     expect(__.isUnset([])).to.equal(false);
   });
 
-  it('.isUnset({}) === true', () => {
+  it('.isUnset({}) === false', () => {
     expect(__.isUnset({})).to.equal(false);
   });
 
