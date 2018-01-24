@@ -72,4 +72,56 @@ describe('lodashExt', () => {
   it('.implies(false, false) === true', () => {
     expect(__.implies(false, false)).to.equal(true);
   });
+
+  it('.bool(false) === false', () => {
+    expect(__.bool(false)).to.equal(false);
+  });
+
+  it('.bool(0) === false', () => {
+    expect(__.bool(0)).to.equal(false);
+  });
+
+  it('.bool(0.0) === false', () => {
+    expect(__.bool(0.0)).to.equal(false);
+  });
+
+  it('.bool(\'\') === false', () => {
+    expect(__.bool('')).to.equal(false);
+  });
+
+  it('.bool(null) === false', () => {
+    expect(__.bool(null)).to.equal(false);
+  });
+
+  it('.bool(undefined) === false', () => {
+    expect(__.bool(undefined)).to.equal(false);
+  });
+
+  it('.bool(true) === true', () => {
+    expect(__.bool(true)).to.equal(true);
+  });
+
+  it('.bool(1) === true', () => {
+    expect(__.bool(1)).to.equal(true);
+  });
+
+  it('.bool(3.14) === true', () => {
+    expect(__.bool(3.14)).to.equal(true);
+  });
+
+  it('.bool(\'abcd\') === true', () => {
+    expect(__.bool('abcd')).to.equal(true);
+  });
+
+  it('.bool([]) === true', () => {
+    expect(__.bool([])).to.equal(true);
+  });
+
+  it('.bool({}) === true', () => {
+    expect(__.bool({})).to.equal(true);
+  });
+
+  it('.bool(() => {}) === true', () => {
+    expect(__.bool(() => {})).to.equal(true);
+  });
 });

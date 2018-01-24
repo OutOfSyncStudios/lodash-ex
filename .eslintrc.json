@@ -97,7 +97,7 @@
     "no-multiple-empty-lines": ["error", { "max": 2, "maxEOF": 1, "maxBOF": 1 }],
     "no-new-object": "error",
     "no-tabs": "error",
-    "no-unneeded-ternary": "error",
+    "no-unneeded-ternary": "warn",
     "no-whitespace-before-property": "error",
     "object-curly-newline": ["error", { "multiline": true }],
     "object-curly-spacing": ["error", "always"],

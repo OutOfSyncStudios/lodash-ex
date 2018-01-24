@@ -5,7 +5,6 @@
 [![Actual version published on npm](http://img.shields.io/npm/v/@mediaxpost/lodashext.svg)](https://www.npmjs.org/package/@mediaxpost/lodashext)
 [![Travis build status](https://travis-ci.org/MediaXPost/lodashExt.svg)](https://www.npmjs.org/package/@mediaxpost/lodashext)
 [![Total npm module downloads](http://img.shields.io/npm/dt/@mediaxpost/lodashext.svg)](https://www.npmjs.org/package/@mediaxpost/lodashext)
-[![Package Quality](http://npm.packagequality.com/badge/@mediaxpost/lodashext.png)](http://packagequality.com/#?package=@mediaxpost/lodashext)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/198aa1923d284affae5516a3563ce2d5)](https://www.codacy.com/app/chronosis/lodashExt?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=MediaXPost/lodashExt&amp;utm_campaign=Badge_Grade)
 [![Codacy Coverage Badge](https://api.codacy.com/project/badge/Coverage/198aa1923d284affae5516a3563ce2d5)](https://www.codacy.com/app/chronosis/lodashExt?utm_source=github.com&utm_medium=referral&utm_content=MediaXPost/lodashExt&utm_campaign=Badge_Coverage)
 [![Dependencies badge](https://david-dm.org/MediaXPost/lodashext/status.svg)](https://david-dm.org/MediaXPost/lodashext?view=list)
@@ -44,7 +43,7 @@ _.isUnset(undefined);
 _.isUnset(false);
 ```
 
-**Output**:
+**Results**:
 ```
 true
 true
@@ -60,7 +59,7 @@ _.hasValue(undefined);
 _.hasValue(false);
 ```
 
-**Output**:
+**Results**:
 ```
 false
 false
@@ -76,6 +75,42 @@ Test the logic imply operation a => b, providing the following truth table:
 | T | F | F |
 | F | T | T |
 | F | F | T |
+
+## _.bool(value) ⇒ boolean
+Coerces the `value` provided to a boolean value.
+
+```js
+_.bool(false);
+_.bool(0);
+_.bool(0.0);
+_.bool('');
+_.bool(null);
+_.bool(undefined);
+_.bool(true);
+_.bool(1);
+_.bool(3.14);
+_.bool('abcd');
+_.bool([]);
+_.bool({});
+_.bool(() => {}));
+```
+
+**Results**:
+```
+false
+false
+false
+false
+false
+false
+true
+true
+true
+true
+true
+true
+true
+```
 
 # [License](#license)
 <a name="license"></a>

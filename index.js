@@ -21,8 +21,13 @@ const implies = (va, vb) => {
   return !va || vb;
 };
 
+const bool = (value) => {
+  return ((value) ? (!!(value)) : false);
+};
+
 __.mixin({ isUnset: isUnset });
 __.mixin({ hasValue: hasValue });
 __.mixin({ implies: implies });
+__.mixin({ bool: bool });
 
 module.exports = __;

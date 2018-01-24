@@ -1,6 +1,6 @@
 {
   "name": "@mediaxpost/lodashext",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Simple and useful utility extensions for Lodash",
   "main": "index.js",
   "scripts": {
