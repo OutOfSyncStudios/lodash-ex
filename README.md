@@ -12,58 +12,58 @@
 
 Simple and useful utility extensions for Lodash.
 
-# [Installation](#installation)
 <a name="installation"></a>
+# [Installation](#installation)
 
 ```shell
-npm install @mediaxpost/lodashExt
+  npm install @mediaxpost/lodashExt
 ```
 
-# [Usage](#usage)
 <a name="usage"></a>
+# [Usage](#usage)
 lodashExt replaces and extends lodash, so it only the lodashExt module needs to be included in your code:
 
 ```js
-const _ = require('@mediaxpost/lodashext');
+  const _ = require('@mediaxpost/lodashext');
 
-const data = { a: 'a', b: 'b' };
-// Use lodash as you normally would
-console.log(_.pick(data, ['a']);
+  const data = { a: 'a', b: 'b' };
+  // Use lodash as you normally would
+  console.log(_.pick(data, ['a']);
 ```
 
-# [API Reference](#api)
 <a name="api"></a>
+# [API Reference](#api)
 
 ## _.isUnset(value) ⇒ boolean
 Tests if the value provided is `null` or `undefined`
 
 ```js
-_.isUnset(null);
-_.isUnset(undefined);
-_.isUnset(false);
+  _.isUnset(null);
+  _.isUnset(undefined);
+  _.isUnset(false);
 ```
 
 **Results**:
 ```
-true
-true
-false
+  true
+  true
+  false
 ```
 
 ## _.hasValue(value) ⇒ boolean
 Tests if the value provided is not `null` or `undefined`
 
 ```js
-_.hasValue(null);
-_.hasValue(undefined);
-_.hasValue(false);
+  _.hasValue(null);
+  _.hasValue(undefined);
+  _.hasValue(false);
 ```
 
 **Results**:
 ```
-false
-false
-true
+  false
+  false
+  true
 ```
 
 ## _.implies(a, b) ⇒ boolean
@@ -80,39 +80,39 @@ Test the logic imply operation a => b, providing the following truth table:
 Coerces the `value` provided to a boolean value.
 
 ```js
-_.bool(false);
-_.bool(0);
-_.bool(0.0);
-_.bool('');
-_.bool(null);
-_.bool(undefined);
-_.bool(true);
-_.bool(1);
-_.bool(3.14);
-_.bool('abcd');
-_.bool([]);
-_.bool({});
-_.bool(() => {}));
+  _.bool(false);
+  _.bool(0);
+  _.bool(0.0);
+  _.bool('');
+  _.bool(null);
+  _.bool(undefined);
+  _.bool(true);
+  _.bool(1);
+  _.bool(3.14);
+  _.bool('abcd');
+  _.bool([]);
+  _.bool({});
+  _.bool(() => {}));
 ```
 
 **Results**:
 ```
-false
-false
-false
-false
-false
-false
-true
-true
-true
-true
-true
-true
-true
+  false
+  false
+  false
+  false
+  false
+  false
+  true
+  true
+  true
+  true
+  true
+  true
+  true
 ```
 
-# [License](#license)
 <a name="license"></a>
+# [License](#license)
 
 Copyright (c) 2018 Jay Reardon -- Licensed under the MIT license.
