@@ -34,7 +34,7 @@ lodashExt replaces and extends lodash, so it only the lodashExt module needs to 
 <a name="api"></a>
 # [API Reference](#api)
 
-## _.isUnset(value) ⇒ boolean
+## _.isUnset(value) &#x27fe; boolean
 Tests if the value provided is `null` or `undefined`
 
 ```js
@@ -50,7 +50,7 @@ Tests if the value provided is `null` or `undefined`
   false
 ```
 
-## _.hasValue(value) ⇒ boolean
+## _.hasValue(value) &#x27fe; boolean
 Tests if the value provided is not `null` or `undefined`
 
 ```js
@@ -66,7 +66,7 @@ Tests if the value provided is not `null` or `undefined`
   true
 ```
 
-## _.implies(a, b) ⇒ boolean
+## _.implies(a, b) &#x27fe; boolean
 Test the logic imply operation a => b, providing the following truth table:
 
 | A | B | Result |
@@ -76,7 +76,7 @@ Test the logic imply operation a => b, providing the following truth table:
 | F | T | T |
 | F | F | T |
 
-## _.bool(value) ⇒ boolean
+## _.bool(value) &#x27fe; boolean
 Coerces the `value` provided to a boolean value.
 
 ```js
