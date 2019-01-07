@@ -115,4 +115,4 @@ Coerces the `value` provided to a boolean value.
 <a name="license"></a>
 # [License](#license)
 
-Copyright (c) 2018 Jay Reardon -- Licensed under the MIT license.
+Copyright (c) 2018,2019 Jay Reardon -- Licensed under the MIT license.
