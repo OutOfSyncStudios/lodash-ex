@@ -5,7 +5,7 @@
 [![Actual version published on npm](http://img.shields.io/npm/v/@outofsync/lodash-ex.svg)](https://www.npmjs.org/package/@outofsync/lodash-ex)
 [![Travis build status](https://travis-ci.org/OutOfSyncStudios/lodash-ex.svg)](https://www.npmjs.org/package/@outofsync/lodash-ex)
 [![Total npm module downloads](http://img.shields.io/npm/dt/@outofsync/lodash-ex.svg)](https://www.npmjs.org/package/@outofsync/lodash-ex)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/198aa1923d284affae5516a3563ce2d5)](https://www.codacy.com/app/chronosis/lodash-ex?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OutOfSyncStudios/lodash-ex&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e60352058157440f8daf9135749f0f51)](https://www.codacy.com/app/OutOfSyncStudios/lodash-ex?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=OutOfSyncStudios/lodash-ex&amp;utm_campaign=Badge_Grade)
 [![Codacy Coverage Badge](https://api.codacy.com/project/badge/Coverage/e60352058157440f8daf9135749f0f51)](https://www.codacy.com/app/OutOfSyncStudios/lodash-ex?utm_source=github.com&utm_medium=referral&utm_content=OutOfSyncStudios/lodash-ex&utm_campaign=Badge_Coverage)
 [![Dependencies badge](https://david-dm.org/OutOfSyncStudios/lodash-ex/status.svg)](https://david-dm.org/OutOfSyncStudios/lodash-ex?view=list)
 
