@@ -12,6 +12,7 @@ const testFolder = 'test';
 
 const allJSFiles = [
   '*.js',
+  '!gulpfile.js',
   `${testFolder}/**/*.js`,
   `${testFolder}/*.js`
 ];
